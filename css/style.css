@@ -13,6 +13,7 @@ a {
 }
 body{
     background-color: #f5f5f5;
+    font-family: "Montserrat", sans-serif ;
 }
 h1 , h2 , h3 , h4 , h5 , h6 , .logo{
     font-family: "Montserrat", sans-serif;
@@ -141,4 +142,39 @@ header .content .special{
     border: 1px solid #1c1c1c;
     background-color: #f5f5f5;
     color: #1c1c1c;
+}
+.services .h3-style{
+    font-weight: 900;
+    font-size: 40px;
+}
+.services .card-style{
+    border: none;
+    text-align: center;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1)
+
+}
+.services .card-style h6{
+        margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.services .card-style p{
+    word-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    color: #748182;
+}
+.services .icon-style{
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s;
+    background-color: rgb(214, 214, 214);
+}
+.services .icon-style i{
+    font-size: 1.5rem;
+}
+.services .card-style:hover .icon-style{
+    background-color: rgb(4, 4, 4);
+    color: #f5f5f5;
 }
