@@ -117,3 +117,28 @@ header .content .special{
   transition: 0.9s;
   background-color: #000000;
 }
+.about .button-1{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+.about .button-1:hover{
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+}
+.about .button-2{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+    color: #f5f5f5;
+    background-color: #1c1c1c;
+}
+.about .button-2:hover{
+    border: 1px solid #1c1c1c;
+    background-color: #f5f5f5;
+    color: #1c1c1c;
+}
