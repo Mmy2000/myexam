@@ -25,10 +25,17 @@ header{
 header .content{
     color: white;
 }
-/* header .content span{
-    font-size: 3rem;
-} */
+
 header .content h2{
     font-size: 50px;
     font-weight: 800;
+}
+header .content .item{
+    background-color: rgba(0, 0, 0, 0.371);
+    margin-right: 5px;
+}
+header .content .special{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.371);
 }
