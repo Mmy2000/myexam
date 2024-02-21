@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 body{
-    background-color: #f5f5f5;
+    background-color: #fff;
     font-family: "Montserrat", sans-serif ;
 }
 h1 , h2 , h3 , h4 , h5 , h6 , .logo{
@@ -143,9 +143,25 @@ header .content .special{
     background-color: #f5f5f5;
     color: #1c1c1c;
 }
+.services{
+    background-color: #f7f7f7;
+}
 .services .h3-style{
     font-weight: 900;
     font-size: 40px;
+    position: relative;
+    z-index: 4;
+}
+.services .h3-style::after{
+    content: "";
+    width: 20%;
+    height: 10px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    right: 40%;
+    z-index: -1;
 }
 .services .card-style{
     border: none;
