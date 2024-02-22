@@ -364,6 +364,10 @@ header .content .special{
 .our-teams .inner{
     background-color: #585a5a;
     color: white;
+    overflow: hidden;
+}
+.our-teams .inner .img{
+    overflow: hidden;
 }
 .our-teams .inner h5{
     text-transform: uppercase;
@@ -373,23 +377,42 @@ header .content .special{
     margin: 0 0 5px;
     font-size: 25px;
 }
-.our-teams .cover{
-    top: 5px;
-    bottom: 5px;
-    right: 5px;
-    left: 5px;
-    opacity: 0;
+.our-teams .cover-2{
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    left: 50px;
     background: rgba(255, 255, 255, 0.95);
-    transition: all 0.5s;
+    opacity: 0;
+    transition: all 0.5s ease; /* Add transition for smoother effect */
+    transform: rotateY(180deg);
 }
-.our-teams .cover .icon{
+.our-teams .cover-2 .icon-2{
     height: 40px;
     width: 40px;
     font-size: 20px;
     text-align: center;
     line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    color: #eee;  
+    cursor: pointer;
 }
-.our-teams .inner .caption:hover .our-teams .cover{
+.our-teams .cover-2 .icon-2:hover{
+    background-color: transparent !important;
+    color: #000000;
+}
+.our-teams .img img{
+    transition: all 0.5s;
+}
+.our-teams .img:hover .cover-2{
     opacity: 1;
-    transform: rotate(180deg);
+    transform: rotateY(360deg);
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+}
+.our-teams .img:hover img{
+    transform: scale(1.2,1.2);
 }
