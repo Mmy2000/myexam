@@ -464,3 +464,23 @@ header .content .special{
     background-color: #f4f4f4;
     outline: 0; 
 }
+footer p{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 30px;
+    font-size: 15px;
+    color: #748182;
+}
+.contact .button-style{
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+}
+.contact .button-style:hover{
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+}
