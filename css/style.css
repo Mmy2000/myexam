@@ -315,3 +315,23 @@ header .content .special{
     border: none !important;
     border-bottom: 3px solid black !important;
 }
+.testimonial{
+    background-color: #f7f7f7;
+}
+.testimonial h6{
+        font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+}
+.testimonial span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+.testimonial p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
