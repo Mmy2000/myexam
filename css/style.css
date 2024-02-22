@@ -1,9 +1,11 @@
-*{
+* {
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -11,115 +13,276 @@ html{
 a {
     text-decoration: none;
 }
-body{
+
+body {
     background-color: #fff;
-    font-family: "Montserrat", sans-serif ;
+    font-family: "Montserrat", sans-serif;
 }
-h1 , h2 , h3 , h4 , h5 , h6 , .logo{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
     font-family: "Montserrat", sans-serif;
 }
 
 
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../img/bg.jpg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg.jpg);
     background-position: center center;
     background-size: cover;
 }
-header .content{
+
+header .content {
     color: white;
 }
-header h1{
-    font-weight:200 ;
+
+header h1 {
+    font-weight: 200;
     font-size: 4.4rem;
 }
-header h1:after{
+
+header h1:after {
     content: '';
     font-weight: 400;
     font-size: 4.4rem;
     animation: words 8s linear infinite alternate;
 }
-@keyframes words{
-    0% {content: "|";}
-    2% {content: "L|";}
-    4% {content: "La|";}
-    6% {content: "Lar|";}
-    8% {content: "Larr|";}
-    10% {content: "Larry|";}
-    12% {content: "Larry |";}
-    14% {content: "Larry D|";}
-    16% {content: "Larry Da|";}
-    18% {content: "Larry Dan|";}
-    20% {content: "Larry Dani|";}
-    22% {content: "Larry Dania|";}
-    24% {content: "Larry Daniel|";}
-    26% {content: "Larry Daniels|";}
-    28% {content: "Larry Daniel|";}
-    30% {content: "Larry Danie|";}
-    32% {content: "Larry Dani|";}
-    34% {content: "Larry Dan|";}
-    36% {content: "Larry Da|";}
-    38% {content: "Larry D|";}
-    40% {content: "Larry |";}
-    42% {content: "Larry|";}
-    44% {content: "Larr|";}
-    46% {content: "Lar|";}
-    48% {content: "La|";}
-    50% {content: "L|";}
-    52% {content: "D|";}
-    54% {content: "De|";}
-    56% {content: "Des|";}
-    58% {content: "Desi|";}
-    60% {content: "Desig|";}
-    62% {content: "Design|";}
-    64% {content: "Designe|";}
-    65% {content: "Designer|";}
-    67% {content: "Designer|";}
-    70% {content: "Designe|";}
-    72% {content: "Design|";}
-    75% {content: "Desig|";}
-    77% {content: "Desi|";}
-    80% {content: "Des|";}
-    82% {content: "De|";}
-    85% {content: "Dev|";}
-    87% {content: "Deve|";}
-    90% {content: "Devel|";}
-    92% {content: "Develo|";}
-    95% {content: "Develop|";}
-    97% {content: "Develope|";}
-    100% {content: "Developer|";}
-  }
-header .content h2{
+
+@keyframes words {
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "L|";
+    }
+
+    4% {
+        content: "La|";
+    }
+
+    6% {
+        content: "Lar|";
+    }
+
+    8% {
+        content: "Larr|";
+    }
+
+    10% {
+        content: "Larry|";
+    }
+
+    12% {
+        content: "Larry |";
+    }
+
+    14% {
+        content: "Larry D|";
+    }
+
+    16% {
+        content: "Larry Da|";
+    }
+
+    18% {
+        content: "Larry Dan|";
+    }
+
+    20% {
+        content: "Larry Dani|";
+    }
+
+    22% {
+        content: "Larry Dania|";
+    }
+
+    24% {
+        content: "Larry Daniel|";
+    }
+
+    26% {
+        content: "Larry Daniels|";
+    }
+
+    28% {
+        content: "Larry Daniel|";
+    }
+
+    30% {
+        content: "Larry Danie|";
+    }
+
+    32% {
+        content: "Larry Dani|";
+    }
+
+    34% {
+        content: "Larry Dan|";
+    }
+
+    36% {
+        content: "Larry Da|";
+    }
+
+    38% {
+        content: "Larry D|";
+    }
+
+    40% {
+        content: "Larry |";
+    }
+
+    42% {
+        content: "Larry|";
+    }
+
+    44% {
+        content: "Larr|";
+    }
+
+    46% {
+        content: "Lar|";
+    }
+
+    48% {
+        content: "La|";
+    }
+
+    50% {
+        content: "L|";
+    }
+
+    52% {
+        content: "D|";
+    }
+
+    54% {
+        content: "De|";
+    }
+
+    56% {
+        content: "Des|";
+    }
+
+    58% {
+        content: "Desi|";
+    }
+
+    60% {
+        content: "Desig|";
+    }
+
+    62% {
+        content: "Design|";
+    }
+
+    64% {
+        content: "Designe|";
+    }
+
+    65% {
+        content: "Designer|";
+    }
+
+    67% {
+        content: "Designer|";
+    }
+
+    70% {
+        content: "Designe|";
+    }
+
+    72% {
+        content: "Design|";
+    }
+
+    75% {
+        content: "Desig|";
+    }
+
+    77% {
+        content: "Desi|";
+    }
+
+    80% {
+        content: "Des|";
+    }
+
+    82% {
+        content: "De|";
+    }
+
+    85% {
+        content: "Dev|";
+    }
+
+    87% {
+        content: "Deve|";
+    }
+
+    90% {
+        content: "Devel|";
+    }
+
+    92% {
+        content: "Develo|";
+    }
+
+    95% {
+        content: "Develop|";
+    }
+
+    97% {
+        content: "Develope|";
+    }
+
+    100% {
+        content: "Developer|";
+    }
+}
+
+header .content h2 {
     font-size: 50px;
     font-weight: 800;
 }
-header .content .item{
+
+header .content .item {
     background-color: rgba(0, 0, 0, 0.371);
     margin-right: 5px;
     cursor: pointer;
 }
-header .content .special{
+
+header .content .special {
     width: 30px;
     height: 30px;
     background-color: rgba(0, 0, 0, 0.371);
 }
-.about h3{
+
+.about h3 {
     font-weight: 800;
     margin-bottom: 5px;
 }
-.about span{
+
+.about span {
     color: #999;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
-.about p{
+
+.about p {
     line-height: 1.6;
     margin: 0;
     font-size: 15px;
     color: #748182;
 }
 
-.about .hero-img::after{
+.about .hero-img::after {
     content: "";
     width: 80%;
     height: 80%;
@@ -130,68 +293,77 @@ header .content .special{
     background-repeat: repeat;
     z-index: -1;
 }
+
 .about .progress {
-  height: 50px;
-  display: block;
-  background: none;
-  border-radius: 0;
+    height: 50px;
+    display: block;
+    background: none;
+    border-radius: 0;
 }
+
 .about .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
 }
 
 .about .progress .skill .val {
-  float: right;
-  font-style: normal;
+    float: right;
+    font-style: normal;
 }
+
 .about .progress-bar-wrap {
-  background: #ffffff;
-  height: 20px;
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    background: #ffffff;
+    height: 20px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
 }
 
 .about .progress-bar-1 {
-  width: 100%;
-  height: 20px;
-  transition: 0.9s;
-  background-color: #000000;
+    width: 100%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #000000;
 }
+
 .about .progress-bar-2 {
-  width: 90%;
-  height: 20px;
-  transition: 0.9s;
-  background-color: #000000;
+    width: 90%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #000000;
 }
+
 .about .progress-bar-3 {
-  width: 75%;
-  height: 20px;
-  transition: 0.9s;
-  background-color: #000000;
+    width: 75%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #000000;
 }
+
 .about .progress-bar-4 {
-  width: 80%;
-  height: 20px;
-  transition: 0.9s;
-  background-color: #000000;
+    width: 80%;
+    height: 20px;
+    transition: 0.9s;
+    background-color: #000000;
 }
-.about .button-1{
+
+.about .button-1 {
     padding: 10px 30px;
     border: 1px solid #1c1c1c;
     border-radius: 5px;
     font-size: 13px;
     transition: all 0.5s;
 }
-.about .button-1:hover{
+
+.about .button-1:hover {
     background-color: #1c1c1c;
     color: #f5f5f5;
 }
-.about .button-2{
+
+.about .button-2 {
     padding: 10px 30px;
     border: 1px solid #1c1c1c;
     border-radius: 5px;
@@ -200,21 +372,25 @@ header .content .special{
     color: #f5f5f5;
     background-color: #1c1c1c;
 }
-.about .button-2:hover{
+
+.about .button-2:hover {
     border: 1px solid #1c1c1c;
     background-color: #f5f5f5;
     color: #1c1c1c;
 }
-.services{
+
+.services {
     background-color: #f7f7f7;
 }
-.h3-style{
+
+.h3-style {
     font-weight: 900;
     font-size: 40px;
     position: relative;
     z-index: 1;
 }
- .h3-style::after{
+
+.h3-style::after {
     content: "";
     width: 20%;
     height: 10px;
@@ -225,38 +401,44 @@ header .content .special{
     right: 40%;
     z-index: -1;
 }
-.services .card-style{
+
+.services .card-style {
     border: none;
     text-align: center;
     box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1)
-
 }
-.services .card-style h6{
-        margin-bottom: 15px;
+
+.services .card-style h6 {
+    margin-bottom: 15px;
     font-weight: 800;
     font-size: 18px;
 }
-.services .card-style p{
+
+.services .card-style p {
     word-spacing: 2px;
     font-size: 15px;
     line-height: 1.6;
     margin: 0;
     color: #748182;
 }
-.services .icon-style{
+
+.services .icon-style {
     width: 70px;
     height: 70px;
     transition: all 0.5s;
     background-color: rgb(214, 214, 214);
 }
-.services .icon-style i{
+
+.services .icon-style i {
     font-size: 1.5rem;
 }
-.services .card-style:hover .icon-style{
+
+.services .card-style:hover .icon-style {
     background-color: rgb(4, 4, 4);
     color: #f5f5f5;
 }
-.portfolio .cover{
+
+.portfolio .cover {
     top: 5px;
     bottom: 5px;
     right: 5px;
@@ -266,12 +448,14 @@ header .content .special{
     transition: all 0.5s;
     transform: translateY(10px);
 }
-.portfolio .inner:hover .cover{
+
+.portfolio .inner:hover .cover {
     opacity: 1;
     transform: translateY(0);
 }
-.portfolio .cover h6{
-        font-size: 12px;
+
+.portfolio .cover h6 {
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     position: relative;
@@ -279,25 +463,29 @@ header .content .special{
     transform: translateY(-15px);
     transition: all 0.5s;
 }
-.portfolio .inner:hover .cover h6{
+
+.portfolio .inner:hover .cover h6 {
     margin-bottom: 10px;
     transform: translateY(0);
 }
-.cover .icons .icon{
-   width: 30px;
+
+.cover .icons .icon {
+    width: 30px;
     height: 30px;
     line-height: 28px;
     border-radius: 50%;
     border: 1px solid #111;
-    color: #eee;  
+    color: #eee;
     cursor: pointer;
 }
-.cover .icons .icon:hover{
+
+.cover .icons .icon:hover {
     background-color: transparent !important;
     color: #000000;
 
 }
-.ul-style button{
+
+.ul-style button {
     font-weight: 700 !important;
     font-size: 16px !important;
     cursor: pointer !important;
@@ -306,10 +494,12 @@ header .content .special{
     padding-right: 0 !important;
     margin: 0 10px !important;
 }
-.portfolio ul{
-    border: none ;
+
+.portfolio ul {
+    border: none;
 }
-.portfolio ul .active{
+
+.portfolio ul .active {
     background-color: var(--primaryColor) !important;
     color: #000000 !important;
     font-weight: 700 !important;
@@ -317,27 +507,32 @@ header .content .special{
     border: none !important;
     border-bottom: 3px solid black !important;
 }
-.testimonial{
+
+.testimonial {
     background-color: #f7f7f7;
 }
-.testimonial h6{
-        font-size: 16px;
+
+.testimonial h6 {
+    font-size: 16px;
     font-weight: 600;
     margin: 30px 0 5px;
 }
-.testimonial span{
+
+.testimonial span {
     font-size: 12px;
     font-weight: 600;
     color: #888;
     margin-bottom: 30px;
 }
-.testimonial p{
+
+.testimonial p {
     line-height: 1.6;
     margin: 0;
     font-size: 15px;
     color: #748182;
 }
-.testimonial .carousal-style button{
+
+.testimonial .carousal-style button {
     width: 10px !important;
     height: 10px !important;
     margin: 0 7px !important;
@@ -348,48 +543,58 @@ header .content .special{
     border-top: 0 !important;
     border-bottom: 0 !important;
 }
-.facts h3{
-        font-weight: 900;
+
+.facts h3 {
+    font-weight: 900;
     margin: 15px 0;
 }
-.facts p{
+
+.facts p {
     line-height: 1.6;
     margin: 0;
     font-size: 15px;
-        font-weight: 600;
+    font-weight: 600;
     margin-bottom: 30px;
     color: #748182;
 }
-.our-teams{
+
+.our-teams {
     background-color: #f7f7f7;
 }
-.our-teams .inner{
+
+.our-teams .inner {
     background-color: #585a5a;
     color: white;
     overflow: hidden;
 }
-.our-teams .inner .img{
+
+.our-teams .inner .img {
     overflow: hidden;
 }
-.our-teams .inner h5{
+
+.our-teams .inner h5 {
     text-transform: uppercase;
     font-weight: bold;
 }
-.our-teams .inner h4{
+
+.our-teams .inner h4 {
     margin: 0 0 5px;
     font-size: 25px;
 }
-.our-teams .cover-2{
+
+.our-teams .cover-2 {
     top: 50px;
     bottom: 50px;
     right: 50px;
     left: 50px;
     background: rgba(255, 255, 255, 0.95);
     opacity: 0;
-    transition: all 0.5s ease; /* Add transition for smoother effect */
+    transition: all 0.5s ease;
+    /* Add transition for smoother effect */
     transform: rotateY(180deg);
 }
-.our-teams .cover-2 .icon-2{
+
+.our-teams .cover-2 .icon-2 {
     height: 40px;
     width: 40px;
     font-size: 20px;
@@ -397,17 +602,20 @@ header .content .special{
     line-height: 40px;
     border-radius: 50%;
     border: 1px solid #111;
-    color: #eee;  
+    color: #eee;
     cursor: pointer;
 }
-.our-teams .cover-2 .icon-2:hover{
+
+.our-teams .cover-2 .icon-2:hover {
     background-color: transparent !important;
     color: #000000;
 }
-.our-teams .img img{
+
+.our-teams .img img {
     transition: all 0.5s;
 }
-.our-teams .img:hover .cover-2{
+
+.our-teams .img:hover .cover-2 {
     opacity: 1;
     transform: rotateY(360deg);
     top: 5px;
@@ -415,55 +623,67 @@ header .content .special{
     right: 5px;
     left: 5px;
 }
-.our-teams .img:hover img{
-    transform: scale(1.2,1.2);
+
+.our-teams .img:hover img {
+    transform: scale(1.2, 1.2);
 }
-.contact .icon-style{
+
+.contact .icon-style {
     width: 70px;
     height: 70px;
     transition: all 0.5s;
     background-color: #f4f4f4;
 }
-.contact .icon-style i{
+
+.contact .icon-style i {
     font-size: 1.5rem;
 }
-.contact .card-style-2:hover .icon-style{
+
+.contact .card-style-2:hover .icon-style {
     background-color: rgb(4, 4, 4);
     color: #f5f5f5;
 }
-.contact h6{
+
+.contact h6 {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.contact p{
+
+.contact p {
     line-height: 1.6;
     margin: 0;
     font-size: 15px;
     color: #748182;
 }
-.contact input , textarea{
+
+.contact input,
+textarea {
     border: none !important;
     border-radius: 5px !important;
     padding: 10px !important;
     background: #f4f4f4;
 }
-.contact textarea{
+
+.contact textarea {
     background-color: #f4f4f4;
     height: 160px;
     max-height: 160px;
     max-width: 100%;
 }
-.contact input:focus{
-    box-shadow: none; 
+
+.contact input:focus {
+    box-shadow: none;
     background-color: #f4f4f4;
-    outline: 0; 
+    outline: 0;
 }
-.contact textarea:focus{
-    box-shadow: none; 
+
+.contact textarea:focus {
+    box-shadow: none;
     background-color: #f4f4f4;
-    outline: 0; 
+    outline: 0;
 }
-footer p{
+
+footer p {
     font-size: 13px;
     word-spacing: 2px;
     line-height: 1.6;
@@ -472,7 +692,8 @@ footer p{
     font-size: 15px;
     color: #748182;
 }
-.contact .button-style{
+
+.contact .button-style {
     padding: 10px 40px;
     border: 1px solid #1c1c1c;
     background-color: #1c1c1c;
@@ -481,23 +702,25 @@ footer p{
     transition: all 0.5s;
     color: white;
 }
-.contact .button-style:hover{
+
+.contact .button-style:hover {
     background-color: #ffffff;
     color: black;
 }
 
 @media (min-width:989px) {
-    nav ul .active{
-    color: #000000 !important;
-    position: relative;
-}
-nav ul .active::after{
-    content: "";
-    position: absolute;
-    width: 80%;
-    height: 2px;
-    background-color: #000000;
-    bottom: 0;
-    left: 10%;
-}
+    nav ul .active {
+        color: #000000 !important;
+        position: relative;
+    }
+
+    nav ul .active::after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 2px;
+        background-color: #000000;
+        bottom: 0;
+        left: 10%;
+    }
 }
