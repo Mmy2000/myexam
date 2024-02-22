@@ -346,3 +346,15 @@ header .content .special{
     border-top: 0 !important;
     border-bottom: 0 !important;
 }
+.facts h3{
+        font-weight: 900;
+    margin: 15px 0;
+}
+.facts p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+        font-weight: 600;
+    margin-bottom: 30px;
+    color: #748182;
+}
