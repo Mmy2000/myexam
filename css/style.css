@@ -295,3 +295,21 @@ header .content .special{
     color: #000000;
 
 }
+.carousel-indicators button{
+    border-bottom: 1px solid black !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    color: #000000 !important;
+}
+.portfolio ul{
+    border: none ;
+}
+.portfolio ul .active{
+    background-color: var(--primaryColor) !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    border: none !important;
+    border-bottom: 3px solid black !important;
+}
