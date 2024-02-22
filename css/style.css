@@ -358,3 +358,38 @@ header .content .special{
     margin-bottom: 30px;
     color: #748182;
 }
+.our-teams{
+    background-color: #f7f7f7;
+}
+.our-teams .inner{
+    background-color: #585a5a;
+    color: white;
+}
+.our-teams .inner h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.our-teams .inner h4{
+    margin: 0 0 5px;
+    font-size: 25px;
+}
+.our-teams .cover{
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.95);
+    transition: all 0.5s;
+}
+.our-teams .cover .icon{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.our-teams .inner .caption:hover .our-teams .cover{
+    opacity: 1;
+    transform: rotate(180deg);
+}
