@@ -34,7 +34,7 @@ header h1:after{
     content: '';
     font-weight: 400;
     font-size: 4.4rem;
-    animation: words 8s infinite alternate;
+    animation: words 8s linear infinite alternate;
 }
 @keyframes words{
     0% {content: "|";}
