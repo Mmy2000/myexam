@@ -335,3 +335,14 @@ header .content .special{
     font-size: 15px;
     color: #748182;
 }
+.testimonial .carousal-style button{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 7px !important;
+    background: #d6d6d6 !important;
+    display: block !important;
+    border-radius: 100% !important;
+    box-sizing: border-box !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
