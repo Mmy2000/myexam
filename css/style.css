@@ -31,6 +31,7 @@ h6,
 nav ul .active {
         color: #000000 !important;
         position: relative;
+        transition: all 1s;
     }
 
     nav ul .active::after {
@@ -733,6 +734,7 @@ footer p {
     nav ul .active {
         color: #000000 !important;
         position: relative;
+        transition: all 1s;
     }
 
     nav ul .active::after {
