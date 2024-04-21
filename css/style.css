@@ -747,3 +747,8 @@ footer p {
         left: 10%;
     }
 }
+
+.nav-style{
+    background-color: #eee;
+    z-index: 11111111111111111;
+}

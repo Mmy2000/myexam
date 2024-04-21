@@ -2,9 +2,9 @@ let aboutOffset = $('#about').offset().top
 $(window).scroll(function () { 
     let scrolTop = $(window).scrollTop()
     if (scrolTop > aboutOffset) {
-        $('nav').css('backgroundColor','#ffffff !important')
+        $('nav').addClass('nav-style');
     }else{
-        $('nav').css('backgroundColor','transparent !important')
+        $('nav').addClass('bg-transparent');
         console.log('hello');
     }
 });
