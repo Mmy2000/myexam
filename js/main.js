@@ -23,6 +23,7 @@ $(document).ready(()=>{
     $('#loading .sk-chase').fadeOut(500,()=>{
         $('#loading').fadeOut(1000,()=>{
             $('#loading').remove()
+            $('body').css('overflow-y','auto')
         })
     })
 })
