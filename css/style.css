@@ -764,3 +764,12 @@ nav{
     cursor: pointer;
     padding: 10px 15px;
 }
+#loading{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: #585a5a;
+    z-index: 999999999999999999;
+}
