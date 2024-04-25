@@ -855,6 +855,14 @@ nav{
 .colors .item-4{
     background-color: #cb17ce;
 }
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
 .open{
     top: 80px;
     left: 0px;

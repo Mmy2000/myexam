@@ -38,6 +38,8 @@ $('#openBtn').click(() => {
         $('#openBtn').animate({
             left: '0px'
         })
+        $('#textColor').css('display','none')
+        $('#imgBg').css('display','none')
         
     } else if (($('#edit').css('width') == "0px" && $('#openBtn').css('left') == '0px')) {
         $('#edit').animate({
@@ -46,6 +48,8 @@ $('#openBtn').click(() => {
         $('#openBtn').animate({
             left: '250px'
         })
+        $('#textColor').css('display','flex')
+        $('#imgBg').css('display','flex')
     }
 
 })
