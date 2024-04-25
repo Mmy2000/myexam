@@ -834,8 +834,9 @@ nav{
     left: 0;
     bottom: 0;
     position: fixed;
-    width: 250px;
+    width: 0px;
     z-index: 999999999999;
+    overflow: hidden;
 }
 .colors .item{
     width: 50px;
@@ -844,7 +845,7 @@ nav{
 }
 .open{
     top: 80px;
-    left: 250px;
+    left: 0px;
     position: fixed;
     cursor: pointer;
     z-index: 999999999999;
