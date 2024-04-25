@@ -20,5 +20,9 @@ $('.toup').click( () => {
 });
 
 $(document).ready(()=>{
-    $('#loading').fadeOut(1000)
+    $('#loading .sk-chase').fadeOut(500,()=>{
+        $('#loading').fadeOut(1000,()=>{
+            $('#loading').remove()
+        })
+    })
 })
