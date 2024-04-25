@@ -28,7 +28,7 @@ $(document).ready(() => {
     })
 })
 $('#openBtn').click(() => {
-    
+
     if ($('#edit').css('width') == "250px" && $('#openBtn').css('left') == '250px') {
         $('#edit').animate({
             width: '0px'
@@ -47,3 +47,4 @@ $('#openBtn').click(() => {
     }
 
 })
+
