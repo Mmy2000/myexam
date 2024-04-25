@@ -17,6 +17,7 @@ a {
 body {
     background-color: #fff;
     font-family: "Montserrat", sans-serif !important;
+    overflow-y: hidden;
 }
 
 h1,
