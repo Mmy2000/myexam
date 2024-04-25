@@ -755,3 +755,12 @@ footer p {
 nav{
     transition: all 1s;
 }
+.toup{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999999;
+    cursor: pointer;
+    padding: 10px 15px;
+}
