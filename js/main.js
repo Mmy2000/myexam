@@ -14,3 +14,7 @@ $(window).scroll(function () {
     console.log(aboutOffset);
     console.log(aboutOffset - 100);
 });
+
+$('.toup').click( () => { 
+    $(window).scrollTop(0)
+});
