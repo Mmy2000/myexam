@@ -6,6 +6,5 @@ $(window).scroll(function () {
     }else{
         $('nav').removeClass('nav-style');
         $('nav').addClass('bg-transparent');
-        console.log('hello');
     }
 });
