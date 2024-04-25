@@ -57,8 +57,8 @@ $('#textColor .item').click( (e)=>{
     let textColor= $(e.target).css('backgroundColor')
     $('#mainText,h1,h2,h3,h4,p').css('color',textColor)
 })
-$('#imgBg img').click( (e)=>{
+$('#imgBg .img-slide').click( (e)=>{
     let y = $(e.target).attr('src');
-    $('header').attr('background-image', y);
+    $('#home').css('backgroundImage', `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${y})`);
     console.log(y);
 })
