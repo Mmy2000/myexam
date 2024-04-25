@@ -5,11 +5,13 @@ $(window).scroll(function () {
         $('nav').addClass('nav-style');
         $('nav').removeClass('navbar-dark');
         $('.toup').fadeIn(500)
+        $('#openBtn').css('color','black')
     } else {
         $('nav').removeClass('nav-style');
         $('.toup').fadeOut(500)
         $('nav').addClass('navbar-dark');
         $('nav').addClass('bg-transparent');
+        $('#openBtn').css('color','white')
     }
     console.log(aboutOffset);
     console.log(aboutOffset - 100);
