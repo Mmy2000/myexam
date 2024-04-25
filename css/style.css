@@ -749,6 +749,6 @@ footer p {
 }
 
 .nav-style{
-    background-color: #eee;
+    background-color: #eee !important;
     z-index: 11111111111111111;
 }

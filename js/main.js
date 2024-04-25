@@ -4,6 +4,7 @@ $(window).scroll(function () {
     if (scrolTop > aboutOffset) {
         $('nav').addClass('nav-style');
     }else{
+        $('nav').removeClass('nav-style');
         $('nav').addClass('bg-transparent');
         console.log('hello');
     }
