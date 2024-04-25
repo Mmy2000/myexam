@@ -53,4 +53,8 @@ $('#openBtn').click(() => {
     }
 
 })
-
+$('#textColor .item').click( (e)=>{
+    let x= $(e.target).css('backgroundColor')
+    $('#mainText,h1,h2,h3,h4,p').css('color',x)
+    console.log(x);
+})
