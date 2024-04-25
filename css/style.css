@@ -829,3 +829,24 @@ nav{
     transform: scale(1.0); 
   } 
 }
+.edit{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 250px;
+    z-index: 999999999999;
+}
+.colors .item{
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+}
+.open{
+    top: 80px;
+    left: 250px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 999999999999;
+    color: #eee;
+}

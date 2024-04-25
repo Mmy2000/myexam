@@ -27,3 +27,7 @@ $(document).ready(()=>{
         })
     })
 })
+$('#openBtn').click( ()=>{
+    $('#edit').animate({width:'0px'})
+    $('#openBtn').animate({left:'0px'})
+})
