@@ -773,6 +773,7 @@ nav{
     position: fixed;
     background-color: #585a5a;
     z-index: 999999999999999999;
+    display: flex;
 }
 .sk-chase {
   width: 40px;

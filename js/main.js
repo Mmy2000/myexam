@@ -18,3 +18,7 @@ $(window).scroll(function () {
 $('.toup').click( () => { 
     $(window).scrollTop(0)
 });
+
+$(document).ready(()=>{
+    $('#loading').fadeOut(1000)
+})
