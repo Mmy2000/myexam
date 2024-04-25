@@ -752,3 +752,6 @@ footer p {
     background-color: #eee !important;
     z-index: 11111111111111111;
 }
+nav{
+    transition: all 1s;
+}
