@@ -60,5 +60,25 @@ $('#textColor .item').click( (e)=>{
 $('#imgBg .img-slide').click( (e)=>{
     let y = $(e.target).attr('src');
     $('#home').css('backgroundImage', `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${y})`);
+    if ($('#edit').css('width') == "250px" && $('#openBtn').css('left') == '250px') {
+        $('#edit').animate({
+            width: '0px'
+        })
+        $('#openBtn').animate({
+            left: '0px'
+        })
+        $('#textColor').css('display','none')
+        $('#imgBg').css('display','none')
+        
+    } else if (($('#edit').css('width') == "0px" && $('#openBtn').css('left') == '0px')) {
+        $('#edit').animate({
+            width: '250px'
+        })
+        $('#openBtn').animate({
+            left: '250px'
+        })
+        $('#textColor').css('display','flex')
+        $('#imgBg').css('display','flex')
+    }
     console.log(y);
 })
